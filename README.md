@@ -15,6 +15,10 @@ Welcome to the **Azure Chaos Engineering** repository! This project evaluates th
 - **Azure Monitor & Log Analytics**
 - **KQL (Kusto Query Language)**
 
-## Insights  
+## Results  
 
-Automated fault simulations reveal critical gaps in monitoring and alerting mechanisms, highlighting areas for improved resilience and recovery strategies.
+- **Storage Logging**: Disabling logging revealed gaps in alerting mechanisms, showing risks of undetected misconfigurations.
+- **Public Blob Access**: Exposed sensitive data due to improper access control, emphasizing the need for Azure Policy enforcement.
+- **Open Ports**: Increased attack surface by allowing insecure traffic, highlighting vulnerabilities in network configurations.
+
+The findings demonstrate critical gaps in Azure's native alerting systems and propose actionable improvements to enhance resilience.
